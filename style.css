@@ -16,7 +16,7 @@ h1 {
     text-align: justify;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -29,6 +29,8 @@ section {
 
 .half-width img {
     width: 80%;
+    padding-top: 50px;
+    padding-left: 25px;
 }
 
 .link-button {
@@ -49,4 +51,5 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
 }
